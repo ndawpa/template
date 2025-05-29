@@ -14,3 +14,16 @@ npx @nestjs/cli new . --package-manager npm --language TypeScript --strict
 ```
 npm run start:dev
 ```
+
+# React Native Expo
+
+```
+npx create-expo-app . --template expo-template-blank-typescript
+```
+```
+npx expo start
+```
+or
+```
+npx expo start --tunnel
+```
