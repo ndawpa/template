@@ -27,3 +27,19 @@ or
 ```
 npx expo start --tunnel
 ```
+
+# Docker
+```
+docker build . -t web
+```
+```
+docker build . -t api
+```
+
+# Docker Compose
+It's not working as expected. Fix later.
+
+```
+docker compose build --no-cache
+docker-compose up -d --build
+```
