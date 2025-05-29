@@ -6,3 +6,11 @@ rm .gitkeep && npx create-next-app@latest . --ts --tailwind --eslint --app --src
 ```
 npm run dev
 ```
+
+# NestJS Init
+```
+npx @nestjs/cli new . --package-manager npm --language TypeScript --strict
+```
+```
+npm run start:dev
+```
